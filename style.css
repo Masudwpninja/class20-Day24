@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.clearfix::after{
+   content: "";
+   clear: both;
+   display: block; 
+}
+.left{
+    float:left;
+}
+.right{
+    float:left;
+}
+.none{
+    float:none;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+.fixed-width{
+    max-width: 95%;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+
+/* ======================
+Header-part css starts here 
+========================= */
+.header-part{}
+.header-menu{
+    margin: 10px 0 0px 0 ;
+}
+.header-menu ul {
+	text-align: center;
+}
+.header-menu ul li {
+	display: inline-block;
+}
+.header-menu ul li a {
+	color: black;
+	font-size: 17px;
+	padding: 12px 10px;
+	background: #ddd;
+	display: inline-block;
+	margin-left: 16px;
+	font-weight: 600;
+}
+/* ======================
+menu-bottom-content css ends here
+========================= */
+.menu-bottom-content {
+	background: #f6f6f6;
+    padding: 40px 85px;
+    margin: 50px 0;
+}
+.menu-bottom-content h2 {
+	color: #a52a2a;
+	padding: 10px 0;
+}
+
+/* ================================
+experience section starts here 
+=================================== */
+.cv-section {
+}
+.photo-left {
+	width: 36%;
+}
+.photo-left img {
+	width: 500px;
+}
+
+.cv-right {
+	width: 64%;
+}
+
+.man-title h2 {
+	background: #ddd;
+	padding: 0 0 0 160px;
+	font-size: 31px;
+}
+.content-width {
+	margin-left: 162px;
+}
+.about-content h4 {
+	color: #a52a2a;
+	font-size: 23px;
+	padding: 5px 0 1px 0;
+}
+.skill-content strong {
+	padding: 10px 0;
+	display: inline-block;
+	text-transform: capitalize;
+}
+.skill-content ul li {
+	list-style: disc;
+}
+.experience-content strong {
+	padding: 10px 0;
+	display: inline-block;
+}
+/* ================================
+service section starts here 
+=================================== */
+.service-title {
+	background: #ddd;
+	display: inline-block;
+	padding: 7px 10px;
+	border: 1px solid black;
+	font-size: 25px;
+}
+.service-items {
+	width: 31.3%;
+	float: left;
+	box-sizing: border-box;
+	margin: 1% 2% 0 0;
+	background: #dddddd;
+	padding: 30px;
+}
+/* ================================
+contact section starts here 
+=================================== */
+
+.contact-section {
+	background: #ddd;
+	border-top: 2px solid black;
+    margin: 15px 0 2px 0;
+    padding: 20px 0;
+}
